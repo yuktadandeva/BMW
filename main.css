@@ -280,16 +280,20 @@ nav ul li a{
 /* about */
 
 .About .container{
-    margin: 20px 40px;
+    margin: 0 10px;
+    padding-bottom: 0;
 }
 
 .About h1{
-    font-size: 5em;
+    font-size: 4.5em;
     text-align: center;
 }
 
 .about-item{
-    margin: 0 1px;
+    margin-top: 30px;
+}
+.about-item1 {
+    margin: 0 2px;
 }
 
 .about-item1{
@@ -299,6 +303,79 @@ nav ul li a{
 .about-item1 a{
     position: absolute;
      z-index: 200;
-     left: 0;
-     top: 60%;
+     left: 30px;
+     bottom: 30px;
+     color: white;
+     font-weight: bold;
+}
+
+
+.about-item2 {
+    margin: 0 2px;
+}
+
+.about-item2{
+    position: relative;
+}
+
+.about-item2 a{
+    position: absolute;
+     z-index: 200;
+     left: 30px;
+     bottom: 30px;
+     color: white;
+     font-weight: bold;
+}
+
+.about-item2 a h4{
+    font-weight: bolder;
+}
+
+/* PODCAST */
+
+.podcast{
+    background-color: #262626;
+}
+
+.podcast-headline{
+    width: 30%;
+    color: white;
+    margin-left: 35px;
+}
+
+.podcast-headline .container{
+    width: 90%;
+}
+
+.podcast-headline .container h1{
+    font-size: 2.5em;
+}
+
+.podcast-carousel{
+    width: 70%;
+    padding: 10px;
+    margin-left: 30px;
+    display: grid;
+    overflow: hidden;
+}
+
+.carousel-inner{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.podcast-card{
+    width: 250px;
+    margin: 10px;
+}
+
+.podcast-card .card-inner{
+    position: relative;
+}
+
+.card-data{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
