@@ -363,7 +363,22 @@ nav ul li a{
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
+
+.action-btn{
+    position: absolute;
+    z-index: 200;
+}
+
+.action-btn.left-slide{
+    left: 20px;
+}
+
+.action-btn.right-slide{
+    left: 32%;
+}
+
 .podcast-card{
     width: 250px;
     margin: 10px;
@@ -378,4 +393,8 @@ nav ul li a{
     position: absolute;
     bottom: 20px;
     left: 20px;
+}
+
+.inactivate{
+    display: none;
 }
